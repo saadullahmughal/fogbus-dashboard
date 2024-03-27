@@ -14,9 +14,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("FogBus2 Security Monitoring",style: TextStyle(color: Colors.white,),),
+          title: Text(
+            "FogBus2 Security Monitoring",
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
           backgroundColor: Colors.deepPurpleAccent,
-          leading: Icon(Icons.security,color: Colors.white,),
+          leading: Icon(
+            Icons.security,
+            color: Colors.white,
+          ),
         ),
         body: Container(
           margin: EdgeInsets.only(left: 25, right: 25),
@@ -69,7 +77,10 @@ class MyApp extends StatelessWidget {
                               "827.5 kbps",
                               style: Theme.of(context).textTheme.displayLarge,
                             ),
-                            Icon(Icons.check_circle_outline, size: 36,),
+                            Icon(
+                              Icons.trending_up,
+                              size: 36,
+                            ),
                           ],
                         ),
                       ],
