@@ -31,6 +31,14 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(height: 50),
+              Container(
+                margin: EdgeInsets.fromLTRB(0, 30, 0, 30),
+                alignment: Alignment.center,
+                color: Colors.black,
+                width: MediaQuery.of(context).size.width,
+                padding: EdgeInsets.all(50),
+                child: Text("Main Menu",style: TextStyle(color: Colors.white),),
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
