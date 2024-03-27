@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "FogBus2 Security Monitoring",
+            "FogBus2 Security Monitoring DashBoard",
             style: TextStyle(
               color: Colors.white,
             ),
@@ -30,9 +30,7 @@ class MyApp extends StatelessWidget {
           margin: EdgeInsets.only(left: 25, right: 25),
           child: Column(
             children: [
-              const SizedBox(
-                height: 50,
-              ),
+              const SizedBox(height: 50),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -74,7 +72,7 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              "827.5 kbps",
+                              "420.0 kbps",
                               style: Theme.of(context).textTheme.displayLarge,
                             ),
                             Icon(
@@ -110,7 +108,7 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("13:12:12 09-03-24"),
-                    Text(""),
+                    Text("Google"),
                     // Text("Security Check in progress"),
                   ],
                 ),
