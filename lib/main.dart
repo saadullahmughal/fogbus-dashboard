@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           title: Text(
             "FogBus2 Security Monitoring DashBoard",
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.green,
             ),
           ),
           backgroundColor: Colors.deepPurpleAccent,
@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          "Traffic Rate",
+                          "Traffic Rate Graph",
                           style: Theme.of(context).textTheme.displaySmall,
                         ),
                         Row(
